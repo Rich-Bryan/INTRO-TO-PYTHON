@@ -1,0 +1,35 @@
+##Turtle Olympics
+import turtle
+o = turtle.Turtle()
+sc = turtle.Screen()
+
+o.pensize(7)
+r = 50
+thick = 4
+o.color("blue")
+o.up()
+o.goto(-100,0)
+o.down()
+o.circle(r)
+o.color("black")
+o.up()
+o.goto(0,0)
+o.down()
+o.circle(r)
+o.color("red")
+o.up()
+o.goto(100,0)
+o.down()
+o.circle(r)
+o.color("yellow")
+o.up()
+o.goto(-50,-50)
+o.down()
+o.circle(r)
+o.color("green")
+o.up()
+o.goto(50,-50)
+o.down()
+o.circle(r)
+
+sc.exitonclick()
